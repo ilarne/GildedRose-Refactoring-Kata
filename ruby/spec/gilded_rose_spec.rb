@@ -1,4 +1,6 @@
-require File.join(File.dirname(__FILE__), 'gilded_rose')
+require 'rspec'
+require './spec/spec_helper'
+require './gilded_rose'
 
 describe GildedRose do
 
